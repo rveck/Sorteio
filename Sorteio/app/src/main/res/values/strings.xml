@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sorteio</string>
+    <string name="action_settings">Sobre</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="texto_digite">Informe o que deseja sortear...</string>
+    <string name="texto_upload">Clique no botão "UPLOAD" para fazer a carga dos valores que quer sortear</string>
+    <string name="btn_adicionar">Adicionar</string>
+    <string name="btn_sortear">Sortear</string>
+    <string name="btn_limpar">Reiniciar</string>
+    <string name="texto_contagem">Quantidade de itens:</string>
+    <string name="texto_sorteado">Valor sorteado</string>
+    <string name="texto_instrucao">Informe o que deseja sortear, clique em Adicionar e por fim em Sortear</string>
+    <string name="texto_nenhum_sorteado">* * * * * * * * * *</string>
+    <string name="texto_zero">0</string>
+    <string name="texto_sobre">Sobre</string>
+    <string name="texto_adicionado_sucesso">Item adicionado com sucesso</string>
+    <string name="titulo_confirmacao">Confirmação</string>
+    <string name="operacao_realizada">Reiniciado!</string>
+    <string name="texto_pergunta_reinicializacao">Tem certeza que deseja reiniciar? Isso apagará todos os resultados.</string>
+    <string name="nenhum_item_lista">Não há itens para serem sorteados</string>
+    <string name="texto_sorteio_carregado">Sorteio carregado com sucesso</string>
+</resources>

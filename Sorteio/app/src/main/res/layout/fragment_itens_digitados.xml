@@ -1,0 +1,110 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:fillViewport="true"
+        android:background="@color/colorBackground"
+        tools:context="veck.com.br.sorteio.ItensDigitados$PlaceholderFragment">
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/texto_digite"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorFont"
+            android:textColorLink="@color/colorFont"
+            android:textColorHighlight="@color/colorFont"
+            android:textColorHint="@color/colorFont"/>
+
+        <TextView
+            android:id="@+id/txt_contador_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_contagem"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/txt_sorteado"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorFont"/>
+
+        <TextView
+            android:id="@+id/txt_contador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_zero"
+            android:layout_below="@+id/txt_contador_label"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorFont"/>
+
+        <Button
+            android:id="@+id/btn_sortear"
+            android:layout_width="wrap_content"
+            android:layout_height="40pt"
+            android:text="@string/btn_sortear"
+            android:layout_below="@+id/btn_limpar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/botao"
+            android:textColor="@color/colorFontButton"/>
+
+        <Button
+            android:id="@+id/btn_adicionar"
+            android:layout_width="wrap_content"
+            android:layout_height="40pt"
+            android:text="@string/btn_adicionar"
+            android:layout_below="@+id/edit_text"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/botao"
+            android:textColor="@color/colorFontButton"/>
+
+        <TextView
+            android:id="@+id/txt_sorteado_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_instrucao"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_below="@+id/btn_adicionar"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="19dp"
+            android:textColor="@color/colorFont"/>
+
+        <TextView
+            android:id="@+id/txt_sorteado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto_nenhum_sorteado"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:layout_below="@+id/txt_sorteado_label"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorFont"/>
+
+        <Button
+            android:id="@+id/btn_limpar"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:text="@string/btn_limpar"
+            android:layout_below="@+id/txt_contador"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/botao"
+            android:textColor="@color/colorFontButton"/>
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

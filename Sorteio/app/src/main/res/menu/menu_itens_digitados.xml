@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="veck.com.br.sorteio.ItensDigitados">
+
+    <item
+        android:id="@+id/action_save"
+        android:title="teste"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_open"
+        android:title="teste2"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_open"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+</menu>
